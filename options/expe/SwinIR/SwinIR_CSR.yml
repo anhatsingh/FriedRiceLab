@@ -1,7 +1,7 @@
 # general settings #####################################################################################################
 name: SwinIR
 model_type: IRModel
-num_gpu: 2  # 0 for cpu mode
+num_gpu: 1  # 0 for cpu mode
 manual_seed: 42
 bit: 8 # data type
 
@@ -61,7 +61,7 @@ train:
 # validation settings ##################################################################################################
 val:
   val_freq: 10
-  save_img: false
+  save_img: true
   suffix: ~
 
   metrics:
