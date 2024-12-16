@@ -105,14 +105,14 @@ datasets:
 
 
 # analyse datasets #####################################################################################################
-analyse_datasets:
- analyse_0: # demo dataset
-   name: Kaggle_val
-    type: IRDataset
-    dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/train/gt
-    dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/train/train
-    io_backend:
-      type: disk
+# analyse_datasets:
+#  analyse_0: # demo dataset
+#    name: Kaggle_val
+#     type: IRDataset
+#     dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/train/gt
+#     dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/train/train
+#     io_backend:
+#       type: disk
 
 #  analyse_1:
 #    name: Set5
