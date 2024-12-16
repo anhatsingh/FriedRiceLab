@@ -6,12 +6,12 @@
 
 
 # general settings #####################################################################################################
-task_name: CSR_x4_custom
+task_name: LSR_x4
 scale: 4
 num_in_ch: 3
 num_out_ch: 3
-task: csr
-hook_layer_type: Conv2d
+task: lsr
+hook_layer_type: SABase4D
 
 
 # dataset and data loader settings #####################################################################################
@@ -105,14 +105,14 @@ datasets:
 
 
 # analyse datasets #####################################################################################################
-#analyse_datasets:
-#  analyse_0: # demo dataset
-#    name: Demo_Set5
-#    type: IRDataset
-#    dataroot_gt: datasets/demo_data/Demo_Set5/HR/x4
-#    dataroot_lq: datasets/demo_data/Demo_Set5/LR/x4
-#    io_backend:
-#      type: disk
+analyse_datasets:
+ analyse_0: # demo dataset
+   name: Kaggle_val
+    type: IRDataset
+    dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/train/gt
+    dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/train/train
+    io_backend:
+      type: disk
 
 #  analyse_1:
 #    name: Set5
