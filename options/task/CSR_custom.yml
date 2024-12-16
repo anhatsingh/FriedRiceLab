@@ -39,8 +39,8 @@ datasets:
   val_0:
     name: Kaggle_val
     type: IRDataset
-    dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/val/gt
-    dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/val/val
+    dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/train/gt
+    dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/train/train
     io_backend:
       type: disk
 
