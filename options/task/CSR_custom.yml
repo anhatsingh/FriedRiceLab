@@ -164,13 +164,13 @@ datasets:
 
 
 # infer datasets #######################################################################################################
-#infer_datasets:
-#  infer_0: # demo dataset
-#    name: Set5_GT
-#    type: IRDataset
-#    dataroot_gt: datasets/demo_data/Demo_Set5/HR/x4
-#    io_backend:
-#      type: disk
+infer_datasets:
+ infer_0: # demo dataset
+   name: Kaggle_test_dataset
+   type: IRDataset
+   dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/test
+   io_backend:
+     type: disk
 
 
 # cka datasets #########################################################################################################
