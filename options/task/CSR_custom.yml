@@ -211,8 +211,8 @@ interpret_imgs:
 
 # logging settings #####################################################################################################
 logger:
-  print_freq: 1000
-  save_checkpoint_freq: 1000
+  print_freq: 10
+  save_checkpoint_freq: 10
   use_tb_logger: false
   wandb:
     project: ~
