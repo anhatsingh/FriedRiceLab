@@ -21,6 +21,8 @@ datasets:
     type: IRDataset
     dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/train/gt
     dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/train/train
+    io_backend:
+      type: disk
 
     # data enhancement
     # use_hflip: true
@@ -39,6 +41,8 @@ datasets:
     type: IRDataset
     dataroot_gt: /kaggle/input/enhance-the-dark-world/archive/val/gt
     dataroot_lq: /kaggle/input/enhance-the-dark-world/archive/val/val
+    io_backend:
+      type: disk
 
 
 # test datasets ########################################################################################################
