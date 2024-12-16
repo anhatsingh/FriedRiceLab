@@ -25,8 +25,8 @@ datasets:
       type: disk
 
     # data enhancement
-    # use_hflip: true
-    # use_rot: true
+    use_hflip: false
+    use_rot: false
 
     # data loader
     use_shuffle: true
