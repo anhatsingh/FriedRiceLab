@@ -29,8 +29,8 @@ path:
 train:
   # basic setting
   gt_size: 192
-  batch_size_per_gpu: 16
-  total_iter: 100
+  batch_size_per_gpu: 32
+  total_iter: 50
 
   # optimizer setting
   optim_g:
@@ -42,7 +42,7 @@ train:
   # scheduler setting
   scheduler:
     type: CosineAnnealingRestartLR
-    periods: [ 100 ]
+    periods: [ 50 ]
     restart_weights: [ 1 ]
     eta_min: !!float 1e-6
 
