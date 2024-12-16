@@ -29,8 +29,8 @@ path:
 train:
   # basic setting
   gt_size: 192
-  batch_size_per_gpu: 32
-  total_iter: 50
+  batch_size_per_gpu: 16
+  total_iter: 40
 
   # optimizer setting
   optim_g:
